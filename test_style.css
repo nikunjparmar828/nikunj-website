@@ -1,0 +1,41 @@
+body, html{
+	height : 100%;
+	margin : 0;
+}
+
+body {
+	background-image : url("https://wallpaperscraft.com/image/stars_sky_space_car_113629_3840x2160.jpg");
+	height : 100%;
+	background-size:cover;
+	background-repeat : no-repeat;
+	background-position : center center;
+}
+
+header .main_nav {
+	margin : 0px;
+	width : 80%;	
+}
+
+.container {
+	margin : 0px;
+	width : 80%;
+}
+
+/* Globals */
+
+.nav ul {
+	margin : 0;
+	padding : 0;
+}
+
+.nav ul li {
+	display : inline-block;
+}
+
+.nav ul li a {
+	text-decoration : none;
+	color : #fff;
+	padding : 10px;
+	
+}
+

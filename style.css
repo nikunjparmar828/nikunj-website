@@ -1,0 +1,86 @@
+body, html {
+	height : 100%;
+	margin : 0;
+}
+
+body {
+	background-image : linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://wallpaperscraft.com/image/stars_sky_space_car_113629_3840x2160.jpg");
+	background-size : cover ;
+	background-position: center;
+	background-position : center center;
+	background-repeat : no-repeat;
+	
+}
+
+h1 {
+	font-family : tahoma;	
+}
+
+.quato {
+	width : 1150px;
+	top : 50%;
+	left : 50%;
+	position : absolute;
+	transform : translate(-50%,-50%);
+}
+
+.quato h1 {
+	color : #fff;
+}
+
+.main_nav
+{
+	float : right;
+	list-style : none;
+	margin-right : 50px;
+}
+
+.nav li
+{
+	display : inline-block;
+	margin : 20px;
+}
+
+.nav li a 
+{
+	text-decoration : none;
+	color : white;
+	font-size : 150%;
+}
+
+.nav li a:hover
+{	
+	color : orange;
+	border-bottom: 2px solid orange;
+	transition :all 0.5s ease-in;
+	padding : 15px 0;
+	
+}
+
+.soc_link
+{
+	margin-bottom : 0px;
+	position : absolute;
+	top : 85%;
+	left : 3%;
+}
+
+.soc_link li a
+{
+	text-decoration : none;
+}
+
+.soc_link li
+{	
+	display : inline-block;
+	margin : 15px;
+}
+
+.right 
+{
+	position : absolute;
+	top:93%;
+	left : 75%;
+}
+
+
